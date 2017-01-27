@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Base color palette -->
+    <color name="material_green_500">#009688</color>
+    <color name="material_orange_500">#ff9800</color>
+    <color name="material_grey_700">#616161</color>
+    <color name="material_blue_200">#90caf9</color>
+    <color name="material_blue_100">#ffbbdefb</color>
+    <color name="material_pink_a700">#C51162</color>
+    <color name="material_indigo_700">#303f9f</color>
+    <color name="material_blue_400">#ff42a5f5</color>
+    <color name="material_blue_300">#ff64b5f6</color>
+    <color name="material_blue_A100">#ff82b1ff</color>
+    <color name="material_blue_A200">#ff448aff</color>
+    <color name="material_blue_A400">#ff2979ff</color>
+    <color name="material_blue_A700">#ff2962ff</color>
+    <color name="md_blue_grey_50">#ECEFF1</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_100">#F5F5F5</color>
+</resources>

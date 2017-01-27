@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/activity_git_list"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.example.adrianmatuszewski.repoproject.View.activity.GitListActivity">
+
+    <TextView
+        android:id="@+id/repo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:paddingTop="@dimen/item_padding"
+        android:paddingBottom="@dimen/repo_padding"
+        android:layout_marginBottom="@dimen/repo_padding"
+        android:layout_gravity="center"
+        tools:text="name" />
+
+    <TextView
+        android:id="@+id/repo_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:paddingBottom="@dimen/repo_padding"
+        android:layout_marginBottom="@dimen/repo_padding"
+        android:layout_gravity="center"
+        tools:text="description" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/repo_padding"
+        android:layout_marginBottom="@dimen/repo_padding"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/ic_language"/>
+        <TextView
+            android:id="@+id/repo_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="java"
+            android:layout_marginRight="@dimen/item_inside_margin"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/ic_star"/>
+
+        <TextView
+            android:id="@+id/repo_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/item_inside_margin"
+            tools:text="5" />
+
+        <ImageView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/ic_update_t"/>
+        <TextView
+            android:id="@+id/repo_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/item_inside_margin"
+            tools:text="date" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/repo_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:paddingBottom="@dimen/repo_padding"
+        android:layout_marginRight="@dimen/repo_padding"
+        android:layout_marginBottom="@dimen/repo_padding"
+        android:layout_gravity="right"
+        tools:text="owner" />
+
+    <Button
+        android:id="@+id/repo_url"
+        android:text="Show repo on website"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/repo_padding"
+        android:layout_marginBottom="@dimen/repo_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
